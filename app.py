@@ -2,7 +2,6 @@ import streamlit as st
 st.title('Microplastics Analyzer')
 st.header('Companion Webapp for Microplastic capturing device')
 st.subheader('By Saketh Sundar')
-import numpy as np
 import pandas as pd
 import PIL.Image
 import time
