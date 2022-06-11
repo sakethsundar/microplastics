@@ -11,7 +11,7 @@ with st.form(key='my_form'):
 	submit_button = st.form_submit_button('Submit')
 if submit_button:
 	with st.spinner('Wait for it, this may take up to 30 seconds'):
-		time.sleep(1)
+		time.sleep(20)
 	st.success('Done!')
 	st.header('Detection')
 	st.image('detection.png')
