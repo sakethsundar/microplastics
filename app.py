@@ -3,9 +3,7 @@ st.title('Microplastics Analyzer')
 st.header('Companion Webapp for Microplastic capturing device')
 st.subheader('By Saketh Sundar')
 import pandas as pd
-import PIL.Image
 import time
-import functools
 with st.form(key='my_form'):
 	st.file_uploader(label="Upload a file", type=['png','jpg'])
 	lat = float(st.text_input('Enter the longitude coordinate of data collection'))
